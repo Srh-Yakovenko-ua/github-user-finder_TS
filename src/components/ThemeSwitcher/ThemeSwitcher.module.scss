@@ -24,15 +24,16 @@
   }
 
   &:hover {
-    color: var(--switcher-color-hover)
-  }
+    span {
+      color: var(--switcher-color-hover);
+    }
 
-  .svg {
-    fill: var(--switcher-color-hover)
+    svg {
+      fill: var(--switcher-color-hover);
+    }
   }
-
 }
 
 .icon {
-  fill: var(--switcher-color)
+  fill: var(--switcher-color);
 }
