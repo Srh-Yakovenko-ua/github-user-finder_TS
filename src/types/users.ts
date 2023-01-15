@@ -1,3 +1,6 @@
+//https://api.github.com/users/Srh-Yakovenko-ua
+
+
 export type LocalGithubUser = {
     login : string
     id : number
